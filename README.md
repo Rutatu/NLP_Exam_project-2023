@@ -1,7 +1,7 @@
 # NLP_Exam_project-2023
 
 ***Practical product for Natural Language Processing Exam project***
-***Aarhus University***
+***at Aarhus University***
 
 ## About the project
 This repository presents a Many-to-many LSTM neural network to predict the subsequent dance move in Lindy Hop. This product was built as part of the Natural language processing exam at Aarhus University.  It aims to contribute to a better and more evidence-based understanding of the dance language. This product primarily serves as a research tool to investigate how dance move labels represented as Word2Vec word embeddings could inform about the inherent dance structure and, thus, help investigate the syntax of dance. It could be used to study different cultural influences on dance, and investigate how the language of dance changed over time. Once dance move prediction is successful, possible applications could include computer-aided dance teaching and learning. Also it could be utilized in arts and entertainment for a generation of human-like creative movement. 
