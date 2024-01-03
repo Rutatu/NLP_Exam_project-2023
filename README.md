@@ -1,11 +1,32 @@
 # NLP_Exam_project-2023
 
-***Exam project practical product for Natural Language Processing MA´s course at Aarhus University.***
+***Practical product for Natural Language Processing Exam project***
+***Aarhus University***
+
+## About the project
+This repository presents a Many-to-many LSTM neural network to predict the subsequent dance move in Lindy Hop. This product was built as part of the Natural language processing exam at Aarhus University.
+
+## About the script
+This script builds and trains a Many-to-many LSTM neural network for the Lindy Hop dance sequence prediction task. It aims to contribute to a better and more evidence-based understanding of the dance language.
+The code could be re-used with any other dance dataset with the same structure. The dance move sequences should be saved as .csv file with a 'Behavior'column where each row is a separate dance sequence of labeled moves separated by a comma.
 
 
-## Intructions to run the code
+## Repository structure
 
-The code was tested on an HP computer with Windows 10 operating system. 
+| File | Description |
+| --- | --- |
+| data/ | Folder containing files input data for the script |
+| out/ | Folder containing files produced by the scripts |
+| src/ | Folder containing the scripts |
+| LICENSE | A software license defining what other users can and can't do with the source code |
+| README.md | Description of the project and the instructions |
+| create_NP_venv.bash | bash file for creating a virtual environment |
+| kill_NLP_venv.bash | bash file for removing a virtual environment |
+| requirements.txt | list of Python packages required to run the script |
+
+## Instructions to run the code
+
+The code was tested on an HP computer with Windows 11 operating system. 
 
 __Steps__
 
@@ -14,12 +35,12 @@ Set-up:
 #1 Open terminal
 #2 Navigate to the environment where you want to clone this repository
 #3 Clone the repository
-$ git clone https://github.com/Rutatu/cds-language_Assignment_6.git 
+$ git clone https://github.com/Rutatu/NLP_Exam_project-2023.git
 
 #4 Navigate to the newly cloned repo
-$ cd cds-language_Assignment_6
+$ cd NLP_Exam_project-2023
 
-#5 Create virtual environment with its dependencies and activate it
+#5 Create a virtual environment with its dependencies and activate it
 $ bash create_NLP_venv.sh
 $ source ./NLP/bin/activate
 
@@ -31,16 +52,15 @@ Run the code:
 #6 Navigate to the directory of the scripts
 $ cd src
 
-#7 Run each code with default parameters
-$ python GoT_LogReg.py -dir ../data/Game_of_Thrones_Script.csv
-$ python GoT_deep.py -dir ../data/Game_of_Thrones_Script.csv 
+#7 Run the code with default parameters
+$ python Emb_LSTM.py -dir data/LindyHop_moves_sequences.csv -emb_m data/embedding_matrix_word2vec_100.npy
 
 #8 To remove the newly created virtual environment
 $ bash kill_NLP_venv.sh
 
 #9 To find out possible optional arguments for both scripts
-$ python GoT_LogReg.py --help
-$ python GoT_deep.py --help
+$ python Emb_LSTM.py --help
+
 
 
  ```
