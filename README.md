@@ -9,6 +9,9 @@ This repository presents a Many-to-many LSTM neural network to predict the subse
 ## About the script
 This script builds and trains a Many-to-many LSTM neural network with a word embedding layer for the Lindy Hop dance sequence prediction task. The code could be re-used with any other dance dataset with the same structure. The dance move sequences should be saved as .csv file with a 'Behavior'column where each row is a separate dance sequence of labeled moves separated by a comma. The word embedding matrix was created for this project´s dataset using Word2Vec.
 
+## Acknowledgement
+It is essential to acknowledge that Lindy Hop is a vibrant and expressive art form. This research does not attempt to diminish its richness by translating it into mere numbers. Instead, by employing contemporary computational methods, this study aims to enhance the evolution of Lindy Hop, offering new insights for its research, historical appreciation, and educational endeavors.
+
 
 ## Repository structure
 
