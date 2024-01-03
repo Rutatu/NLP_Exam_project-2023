@@ -53,7 +53,7 @@ Run the code:
 $ cd src
 
 #7 Run the code with default parameters
-$ python Emb_LSTM.py -dir data/LindyHop_moves_sequences.csv -emb_m data/embedding_matrix_word2vec_100.npy
+$ python Emb_LSTM.py -dir ../data/LindyHop_moves_sequences.csv -emb_m ../data/embedding_matrix_word2vec_100.npy
 
 #8 To remove the newly created virtual environment
 $ bash kill_NLP_venv.sh
