@@ -28,8 +28,8 @@ It is essential to acknowledge that Lindy Hop is a vibrant and expressive art fo
 
 ## Instructions to run the code
 
-The code was tested on an HP computer with Windows 11 operating system. 
-
+The code was tested on an HP computer with Windows 11 operating system with Python 3.11 (64-bit) 
+Note: It required Installing CUDA and its version. Installing cuDNN, cuFFT, cuBLAS, and their versions.
 __Steps__
 
 Set-up:
